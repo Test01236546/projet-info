@@ -11,7 +11,7 @@ t2=trajets.filtre_tgv(prix="minimum")
 
 t2.table
 t2.type
-
+#test
 t3=t2.ajout_correspondances()
 t3.table
 "DIJON VILLE" in set(trajets.table.origine)
